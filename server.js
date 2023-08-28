@@ -25,18 +25,15 @@ app.get('*', (req, res) => {
 });
 
 app.post('/api/notes',(req, res)=> {
-    const {title, textArea} = req.body;
+    const {title, text} = req.body;
 
-    if(title&& textArea) {
+    if(title&& text) {
         const newNote =  {
             title,
-            textArea
+            text
         }
     
-     
-       const reviewNotes = JSON.stringify(newNote);
-
-       //first need to read file
+     //first need to read file
        fs.readFile(`./db/db.json`, 'utf8', (err, data) => {
          if (err) {
            console.err(err)
@@ -45,20 +42,13 @@ app.post('/api/notes',(req, res)=> {
    
              parsedNotes.push(newNote);
            
-          fs.writeFile('./db/db.json', JSON.stringify(parsedReviews), (err) =>
-         err
-           ? console.error(err)
-           : console.log(
-               `New Note has been written to JSON file`
-             )
-       );
+            fs.writeFile('./db/db.json', JSON.stringify(parsedNotes), (err) =>
+                err
+                ? console.error(err)
+                : console.log(`New Note has been written to JSON file`)
+            );
            }
-        
-       });
-
-   
-
-   
+          });
 
 }
 })

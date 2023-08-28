@@ -23,6 +23,8 @@
 
 # Credits
     Donnie Rawlings: https://github.com/drawlin22/
+    AskBCS Royce Ojwilli for bug fixes
+    Tutor Neil Dhand
    
    
 # License
