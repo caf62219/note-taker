@@ -5,7 +5,7 @@ const path = require ('path');
 const { v4: uuidv4 } = require('uuid');
 
 //the port that you are requiring
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 //app pulling in an express
 const app= express();
