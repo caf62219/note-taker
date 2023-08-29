@@ -9,12 +9,14 @@
     
 # Installation
 
-    Follow the following URL to the website: 
+    Follow the following URL to the website: <a href=""></a>
     
 # Usage
 <img src="./images/Screenshotnotetaker.png" alt="Screenshot of note taker application" width="600px" />
    
-    - This application allows you to 
+    - On the left is previously typed notes. If you click on one of the previously typed notes it appears on the right.
+    - The user can add a note on the right and it will save to the left.
+    -If the user clicks on the delete button the note will be deleted.
 
 
 # Credits
@@ -22,7 +24,7 @@
     Kyle Jocoy: https://github.com/Kylyote/
     Nedda Elsayed: https://github.com/Lven-Nemsy/
     AskBCS Royce Ojwilli for bug fixes
-    Tutor Neil Dhand
+    Tutor Neil Dhand for help with finalizing the saving of notes and the deleting.
    
    
 # License
