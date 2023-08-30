@@ -9,7 +9,8 @@
     
 # Installation
 
-    Follow the following URL to the website: <a href=""></a>
+   Follow the following link to the project URL: https://cac-note-taker-2587b56ecea8.herokuapp.com/
+
     
 # Usage
 <img src="./images/Screenshotnotetaker.png" alt="Screenshot of note taker application" width="600px" />
@@ -22,7 +23,6 @@
 # Credits
     Donnie Rawlings: https://github.com/drawlin22/
     Kyle Jocoy: https://github.com/Kylyote/
-    Nedda Elsayed: https://github.com/Lven-Nemsy/
     AskBCS Royce Ojwilli for bug fixes
     Tutor Neil Dhand for help with finalizing the saving of notes and the deleting.
    
